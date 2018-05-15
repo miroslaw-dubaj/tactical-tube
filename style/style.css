@@ -1,0 +1,56 @@
+body {
+  background-image: url('../images/tactial-tube.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #000;
+}
+
+.logo {
+  font-family: 'Special Elite', cursive;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 1px 1px 2px #ddd;
+}
+
+.tube {
+  font-family: 'Titan One', cursive;
+  color: #cc181e;
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 75%;
+}
+
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  color: #ddd;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group {
+  background: transparent;
+}
+
+.app .list-group .list-group-item {
+  color: #ddd;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background-color: transparent;
+}
+
+.list-group-item:hover {
+  background-color: rgba(238, 238, 238, 0.5);
+}
